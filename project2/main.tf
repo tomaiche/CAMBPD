@@ -17,7 +17,7 @@ provider "ibm" {
 resource "ibm_storage_block" "Tom_block_storage" {
   type = "Performance"
   datacenter = "${var.datacenter}"
-  capacity = "20"
+  capacity = "${var.capacity}"
   iops = "100"
   os_format_type = "Linux"
 }

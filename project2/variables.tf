@@ -10,3 +10,9 @@ variable "datacenter" {
   description = "Generated"
 }
 
+variable "capacity" {
+  type = "string"
+  description = "Generated"
+  default = "10"
+}
+

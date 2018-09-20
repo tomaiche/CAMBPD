@@ -5,7 +5,6 @@
   "input_groups": [ ],
   "output_groups": [ ],
   "template_input_params": [
-   
     {
       "name": "datacenter",
       "label": "Datacenter",
@@ -14,6 +13,19 @@
       "default": "",
       "validation": "",
       "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "capacity",
+      "label": "Capacity",
+      "description": "Generated",
+      "type": "string",
+      "default": "10",
+      "validation": "",
+      "required": false,
       "secured": false,
       "hidden": false,
       "immutable": false,
